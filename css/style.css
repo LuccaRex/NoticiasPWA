@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Poppins';
+    background-color: cadetblue;
 }
 
 header {
@@ -17,7 +18,7 @@ header {
 }
 
 h1 {
-    color: #fff;
+    color: aqua;
     text-align: center;
     text-transform: uppercase;
 }
@@ -32,7 +33,7 @@ main {
 
 .article {
     padding: 1rem;
-    box-shadow: 3px 3px 3px 4px rgb(216, 216, 216);
+    box-shadow: 3px 3px 3px 4px rgb(47, 114, 156);
 }
 
 .article img {
@@ -47,5 +48,21 @@ main {
 }
 
 .container {
-    align-items: center;
+        text-align: center;
+}
+
+.busque{
+    width: 30%;
+    height: 30px;
+    border-radius: 10px;
+    border-color: cornflowerblue;
+    background-color: cornflowerblue;
+}
+
+.pesquisa {
+    width: 10%;
+    height: 30px;
+    border-radius: 10px;
+    border-color: cornflowerblue;
+    background-color: cornflowerblue;
 }
